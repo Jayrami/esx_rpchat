@@ -1,5 +1,5 @@
-### esx_rpchat modifications, taken from SOAR Roleplay
-# Original: https://github.com/esx-framework/esx_rpchat
+# esx_rpchat modifications, taken from SOAR Roleplay
+### Original: https://github.com/esx-framework/esx_rpchat
 
 ## Commands:
 - **/ooc**
