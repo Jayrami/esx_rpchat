@@ -10,5 +10,5 @@
 
 # Installation:
 - Download files to the resources folder
--- ensure chat
--- ensure esx_rpchat
+- ensure chat
+- ensure esx_rpchat
