@@ -12,3 +12,4 @@
 - Download files to the resources folder
 - ensure chat
 - ensure esx_rpchat
+- Verify that you start them after your es_extended
