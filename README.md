@@ -13,3 +13,6 @@
 - ensure chat
 - ensure esx_rpchat
 - Verify that you start them after your es_extended
+
+# Showcase:
+<img src="https://i.imgur.com/QnR8WYO.png" alt="soarroleplaychat">
