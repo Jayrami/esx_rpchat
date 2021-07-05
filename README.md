@@ -5,6 +5,7 @@
 - **/ooc**
 - **/twt**
 - **/anontwt**
+- **/ad**
 - **/me** (enable in server.lua and client.lua)
 - **/do** (enable in server.lua and client.lua)
 
@@ -15,4 +16,5 @@
 - Verify that you start them after your es_extended
 
 # Showcase:
-<img src="https://i.imgur.com/QnR8WYO.png" alt="soarroleplaychat">
+<img src="https://i.imgur.com/onM82xS.png" alt="soarroleplaychat">
+<img src="https://i.imgur.com/v8zHSpV.png" alt="soarroleplaychat1">
