@@ -21,15 +21,16 @@ Citizen.CreateThread(function()
 	--TriggerEvent('chat:addSuggestion', '/me',   _U('me_help'),   {{name = _U('generic_argument_name'), help = _U('generic_argument_help')}})
 	--TriggerEvent('chat:addSuggestion', '/do',   _U('do_help'),   {{name = _U('generic_argument_name'), help = _U('generic_argument_help')}})
 	TriggerEvent('chat:addSuggestion', '/ooc',   _U('ooc_help'),   {{name = _U('generic_argument_name'), help = _U('generic_argument_help')}})
+	TriggerEvent('chat:addSuggestion', '/ad',   _U('ad_help'),   {{name = _U('generic_argument_name'), help = _U('generic_argument_help')}})
 end)
 
 AddEventHandler('onResourceStop', function(resource)
 	if resource == GetCurrentResourceName() then
 		TriggerEvent('chat:removeSuggestion', '/twt')
-		TriggerEvent('chat:removeSuggestion', '/anontwt')
 		--TriggerEvent('chat:removeSuggestion', '/me')
 		--TriggerEvent('chat:removeSuggestion', '/do')
 		TriggerEvent('chat:removeSuggestion', '/ooc')
+		TriggerEvent('chat:removeSuggestion', '/ad')
 	end
 end)
 
